@@ -192,6 +192,8 @@ body{
             display: flex;
             align-items: center;
             justify-content: center;
+            /* background-color: aqua; */
+            /* position: relative; */
             div.in{
                 margin: 65px;
                 nav{
@@ -215,9 +217,12 @@ body{
             div.pi{
                 button{
                     border: none;
+                    object-fit: cover;
                     img{
                         width: 142.6px;
                         height: 142.6px;
+                        /* overflow: hidden; */
+                        object-fit: cover;
                     }
                 }
             }
@@ -225,7 +230,7 @@ body{
     }
     footer{
         section#foot{
-            background-color: white;
+            background-color:  white;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -233,7 +238,7 @@ body{
             width: 430px;
             /* border: 1px solid; */
             position: fixed;
-                width: 430px;
+                width: 428px;
                 bottom: 0;
                 z-index: 10;
             div.foo{
@@ -241,6 +246,7 @@ body{
                 nav{
                     a{
                         color: black;
+                        /* border: 1px solid; */
                         svg{
                             height: 25px;
                             width: auto;
