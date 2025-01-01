@@ -346,6 +346,7 @@ body {
         section#video{
             display: grid;
             grid-template-columns: auto auto auto;
+            position: relative;
             div.vid{
                 /* aspect-ratio: 1/1; */
                 height: 250px;
@@ -361,6 +362,29 @@ body {
                         }
                     }
                 }
+            }
+            p{
+                position: absolute;
+                z-index: 10;
+                top: 44%;
+                left: 2%;
+                /* border: 1px solid; */
+                font-size: large;
+                font-weight: 300;
+                color: white;
+                svg{
+                    margin-bottom: 1%;
+                }
+            }
+            p.second{
+                left: 36%;
+            }
+            p.third{
+                left: 69%;
+                /* color: aqua; */
+            }
+            p.four{
+                top: 93%;
             }
         }
         section#story{
