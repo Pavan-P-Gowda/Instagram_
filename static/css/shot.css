@@ -11,7 +11,7 @@ body{
     margin: auto;
     /* background-color: black; */
     header{
-
+        
     }
     main{
         /* position: relative; */
@@ -24,7 +24,7 @@ body{
                     div.sho{
                         /* border: 1px solid; */
                         width: 100%;
-                        height: 650px;
+                        height: 651px;
                         /* margin-top: 10px; */
                         margin: auto;
                         video{
